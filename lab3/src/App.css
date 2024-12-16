@@ -1,0 +1,57 @@
+body {
+    background-color: #FFE4C4;
+}
+
+.App {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.mainlabel {
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error-border {
+    border-color: red;
+}
+
+.form-group {
+    width: 50%;
+    margin-bottom: 20px;
+    border: 2px solid #FFDAB9;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #FFF5EE;
+}
+
+button {
+    color: white;
+    background-color: #FF4500;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF6347;
+}
